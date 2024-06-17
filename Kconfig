@@ -1,0 +1,11 @@
+# Copyright (c) 2024 Hive-Zox International SA
+
+menuconfig PROTOCOL_PROTOBUFC
+    bool "Support for Protobuf-C base files"
+    default n
+    help
+        Enabling support for Protobuf-C base files (needed by other protocol libraries)
+
+if PROTOCOL_PROTOBUFC
+
+endif # PROTOCOL_PROTOBUFC
